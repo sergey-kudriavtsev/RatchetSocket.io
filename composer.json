@@ -3,7 +3,7 @@
     "description": "PHP WebSocket client for Socket.io",
     "type": "library",
     "require": {
-        "cboden/ratchet": "dev-master"
+        "ratchet/pawl": "^0.3.4"
     },
     "license": "MIT",
     "authors": [
@@ -11,5 +11,5 @@
             "name": "Siarhei Kudrautsau",
             "email": "siarhei.kudrautsau@ico-founder.com"
         }
-    ],
+    ]
 }
