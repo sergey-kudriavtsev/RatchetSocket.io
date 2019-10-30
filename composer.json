@@ -1,0 +1,16 @@
+{
+    "name": "ico-founder/ratchet-socket.io",
+    "description": "PHP WebSocket client for Socket.io",
+    "type": "library",
+    "require": {
+        "cboden/ratchet": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Siarhei Kudrautsau",
+            "email": "siarhei.kudrautsau@ico-founder.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
