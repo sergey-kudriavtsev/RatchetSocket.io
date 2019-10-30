@@ -1,10 +1,8 @@
 {
     "name": "ico-founder/ratchet-socket.io",
-    "description": "PHP WebSocket client for Socket.io",
+    "description": "PHP Asynchronous WebSocket client for Socket.io",
+    "keywords": ["socket.io","WebSocket", "client", "Ratchet", "async", "websocket client"],
     "type": "library",
-    "require": {
-        "ratchet/pawl": "^0.3.4"
-    },
     "license": "MIT",
     "authors": [
         {
@@ -12,4 +10,13 @@
             "email": "siarhei.kudrautsau@ico-founder.com"
         }
     ]
+    "autoload": {
+              "psr-4": {
+                  "Ratchet\\SocketIO\\": "src"
+              }
+          },
+    "require": {
+        "php": ">=5.4",
+        "ratchet/pawl": "^0.3.4"
+    }
 }
