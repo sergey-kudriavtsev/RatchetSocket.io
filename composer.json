@@ -9,7 +9,7 @@
             "name": "Siarhei Kudrautsau",
             "email": "siarhei.kudrautsau@ico-founder.com"
         }
-    ]
+    ],
     "autoload": {
               "psr-4": {
                   "Ratchet\\SocketIO\\": "src"
